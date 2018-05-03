@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsCrib.API", "CardsCrib\CardsCrib.API.csproj", "{9FF9F632-E430-4235-8C6B-98A7DE02312C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsCrib.DAL", "CardsCrib.DAL\CardsCrib.DAL.csproj", "{B2DE6991-A906-44F6-802D-8156DBCE190B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsCrib.Service", "CardsCrib.Service\CardsCrib.Service.csproj", "{AC731D88-7A5D-4DA1-8E6F-0BF495189F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsCrib.Configuration", "CardsCrib.Configuration\CardsCrib.Configuration.csproj", "{10E11394-2D6B-4580-809F-C88BAD7FACFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsCrib.Model", "CardsCrib.Model\CardsCrib.Model.csproj", "{F77EC290-5E34-4B6F-8C6C-E200C600B90D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF9F632-E430-4235-8C6B-98A7DE02312C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF9F632-E430-4235-8C6B-98A7DE02312C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF9F632-E430-4235-8C6B-98A7DE02312C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF9F632-E430-4235-8C6B-98A7DE02312C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DE6991-A906-44F6-802D-8156DBCE190B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DE6991-A906-44F6-802D-8156DBCE190B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DE6991-A906-44F6-802D-8156DBCE190B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DE6991-A906-44F6-802D-8156DBCE190B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC731D88-7A5D-4DA1-8E6F-0BF495189F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC731D88-7A5D-4DA1-8E6F-0BF495189F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC731D88-7A5D-4DA1-8E6F-0BF495189F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC731D88-7A5D-4DA1-8E6F-0BF495189F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E11394-2D6B-4580-809F-C88BAD7FACFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E11394-2D6B-4580-809F-C88BAD7FACFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E11394-2D6B-4580-809F-C88BAD7FACFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E11394-2D6B-4580-809F-C88BAD7FACFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77EC290-5E34-4B6F-8C6C-E200C600B90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77EC290-5E34-4B6F-8C6C-E200C600B90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77EC290-5E34-4B6F-8C6C-E200C600B90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77EC290-5E34-4B6F-8C6C-E200C600B90D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E5C095A-5694-465C-A25E-3E1230CEC033}
+	EndGlobalSection
+EndGlobal
