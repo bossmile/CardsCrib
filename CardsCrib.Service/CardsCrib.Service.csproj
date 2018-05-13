@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CardsCrib.DAL\CardsCrib.DAL.csproj" />
-    <ProjectReference Include="..\CardsCrib.Model\CardsCrib.Model.csproj" />
+    <ProjectReference Include="..\CardsCrib.Model\CardsCrib.Core.csproj" />
   </ItemGroup>
 
 </Project>

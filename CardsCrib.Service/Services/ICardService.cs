@@ -1,4 +1,4 @@
-﻿using CardsCrib.Models;
+﻿using CardsCrib.Core;
 using System;
 using System.Collections.Generic;
 using System.Text;

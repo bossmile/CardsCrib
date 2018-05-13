@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CardsCrib.DAL\CardsCrib.DAL.csproj" />
+    <ProjectReference Include="..\CardsCrib.Model\CardsCrib.Core.csproj" />
+  </ItemGroup>
+
 </Project>

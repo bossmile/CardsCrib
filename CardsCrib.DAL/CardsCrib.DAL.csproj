@@ -10,6 +10,7 @@
     <Compile Remove="Migrations\20180503214412_CardsCrib.DAL.CardsCribContext.cs" />
     <Compile Remove="Migrations\20180503214557_CardsCrib.DAL.CardsCribContext.cs" />
     <Compile Remove="Migrations\20180503215013_CardsCrib.DAL.CardsCribContext.cs" />
+    <Compile Remove="Repositories\ICardRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CardsCrib.Model\CardsCrib.Model.csproj" />
+    <ProjectReference Include="..\CardsCrib.Model\CardsCrib.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

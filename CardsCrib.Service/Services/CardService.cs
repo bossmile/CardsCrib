@@ -1,8 +1,8 @@
-﻿using CardsCrib.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using CardsCrib.DAL.Repositories;
+using CardsCrib.Core;
 
 namespace CardsCrib.Service.Services
 {

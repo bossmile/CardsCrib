@@ -1,22 +1,24 @@
-﻿using CardsCrib.Models;
+﻿using CardsCrib.Core;
+using CardsCrib.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CardsCrib.DAL.Repositories
 {
-    class CardRepository : ICardRepository
+    public class CardRepository : Repository<Card>, ICardRepository
     {
-		private CardsCribContext _DbContext;
+		//private CardsCribContext _DbContext;
 
-		public CardRepository(CardsCribContext DbContext)
+		public CardRepository(ICardsCribDBContext DbContext) : base(DbContext)
 		{
-			_DbContext = DbContext;
+			//_DbContext = DbContext;
 		}
 
-		public IEnumerable<Card> GetCardList()
-		{
-			return _DbContext.Card;
-		}
+		//public IEnumerable<Card> GetAll()
+		//{
+		//	return null;// _DbContext.Card;
+		//}
     }
 }
